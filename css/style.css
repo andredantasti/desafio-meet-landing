@@ -1,0 +1,105 @@
+body{
+    height: 150vh;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.header{
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.header img{
+    width: 118px;
+    height: 28px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    height: 488px;
+    margin-top: 87px;
+    margin-bottom: 7;
+}
+
+.top .titulo-descricao{
+    width: 449px;
+    height: 314px;
+
+}
+
+.top img{
+    width: 394px;
+    height: 303px;
+}
+
+.top .imagem-left{
+    
+    margin-right: 127.85px;
+}
+
+.top .imagem-right{
+    
+    margin-left: 127.85px;
+}
+
+.top .titulo-descricao h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: hsl(240, 21%, 20%);
+    text-align: center;
+    line-height: 70px;
+}
+
+.top .titulo-descricao p{
+    font-size: 1.0rem;
+    color: hsl(240, 10%, 57%);
+    margin: 32px;
+    text-align: center;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.botoes .download{
+    width: 193px;px
+    height: 56px;
+    background-color: hsl(192, 37%, 48%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+}
+
+.botoes .what{
+    width: 161px;
+    height: 56px;
+    background-color: hsl(268, 34%, 53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagens-main{
+    width: 755px;
+    display: flex;
+    
+}
+
+.imagens-main img{
+    width: 256px;
+    height: 256px;
+    
+}
+
