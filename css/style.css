@@ -1,6 +1,7 @@
 body{
     height: 150vh;
     font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
 }
 
 .header{
@@ -19,13 +20,14 @@ body{
     display: flex;
     justify-content: center;
     height: 488px;
-    margin-top: 87px;
-    margin-bottom: 7;
+    flex-wrap: wrap;
+    
 }
 
 .top .titulo-descricao{
     width: 449px;
     height: 314px;
+    margin-top: 87px;
 
 }
 
@@ -35,12 +37,12 @@ body{
 }
 
 .top .imagem-left{
-    
+    margin-top: 64px;
     margin-right: 127.85px;
 }
 
 .top .imagem-right{
-    
+    margin-top: 121px;
     margin-left: 127.85px;
 }
 
@@ -66,7 +68,7 @@ body{
 }
 
 .botoes .download{
-    width: 193px;px
+    width: 193px;
     height: 56px;
     background-color: hsl(192, 37%, 48%);
     display: flex;
@@ -100,6 +102,26 @@ body{
 .imagens-main img{
     width: 256px;
     height: 256px;
-    
 }
 
+.barra01{
+    width: 1px;
+    height: 80px;
+    background-color: hsl(240, 18%, 85%);
+    display: flex;
+    margin: auto;
+    margin-top: 56px;
+}
+
+.numero01{
+    border: 1px solid hsl(240, 18%, 85%);
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 64px;
+    color: hsl(240, 10%, 57%);
+}
