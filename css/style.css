@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   height: 488px;
-  flex-wrap: wrap;
+  
 }
 
 .top .titulo-descricao {
@@ -103,6 +103,7 @@ body {
     background-color:#B18BDD;
     cursor: pointer;
     transition: 0.5s ease-in-out;
+    
   }
 
 .main {
@@ -134,6 +135,7 @@ body {
   margin: auto;
   margin-bottom: 64px;
   color: hsl(240, 10%, 57%);
+  font-weight: bold;
 }
 
 .imagens-main {
@@ -199,6 +201,7 @@ body {
     color: hsl(240, 10%, 57%);
     background-color: white;
     z-index: 1;
+    font-weight: bold;
       }
 
   .back-footer{

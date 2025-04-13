@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/responsividade.css" />
 
     <link
       rel="shortcut icon"
@@ -29,11 +29,18 @@
       </header>
 
       <section class="top">
-        <img
-          src="images/desktop/image-hero-left.png"
-          alt="Imagem Esquerda"
-          class="imagem-left"
-        />
+        <picture>
+          <source
+            media="(max-width:768px)"
+            srcset="./images/tablet/image-hero.png"
+          />
+
+          <img
+            src="images/desktop/image-hero-left.png"
+            alt="Imagem Esquerda"
+            class="imagem-left"
+          />
+        </picture>
         <div class="titulo-descricao">
           <h1>Group Chat for Everyone</h1>
           <p>
@@ -45,11 +52,14 @@
             <a class="what" href="#">What is it?</a>
           </div>
         </div>
-        <img
-          src="images/desktop/image-hero-right.png"
-          alt="Imagem Direita"
-          class="imagem-right"
-        />
+        <picture>
+          <source media="(max-width:768px)" srcset="#" />
+          <img
+            src="images/desktop/image-hero-right.png"
+            alt="Imagem Direita"
+            class="imagem-right"
+          />
+        </picture>
       </section>
 
       <section class="main">
